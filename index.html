@@ -40,7 +40,9 @@
         <div id="wrapper">
             <div id="preload" class="preload"><div class="spin"></div></div>
             <!-- BEGIN SITE HEADER -->
-            <header id="header" class="site-header is-transparent">
+            
+            <!-- site-header -->
+            <header id="header" class="site-header common">
                 <div class="container-fluid">
                     <div class="row flex-align-c inner">
                         <div class="col-lg-3 col-6">
@@ -117,40 +119,40 @@
                                         <span class="item menu-back"><i class="las la-arrow-left"></i></span>
                                         <span class="item menu-close"><i class="las la-times"></i></span>
                                     </div>
-                                    <ul>
+                                    <ul class="nav-section">
                                         <li class="is-normal-menu">
-                                            <a href="index.html">Home</a>
+                                            <a class="nav-menu" href="index.html">Home</a>
                                             
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="tokenFaq.html">Token FAQs</a>
+                                            <a class="nav-menu" href="tokenFaq.html">FAQs</a>
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="#">Internship Program</a>
+                                            <a class="nav-menu" href="#">Internship Program</a>
                                             <ul class="sub-menu list-group">
                                                 <li class="list-group-item">
-                                                    <a href="#">Join as Intern or Ambassador</a>
+                                                    <a class="nav-submenu" href="#">Join as Intern or Ambassador</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="internshipFaq.html">Internship FAQs</a>
+                                                    <a class="nav-submenu" href="internshipFaq.html">Internship FAQs</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="#">Our Dominators</a>
+                                                    <a class="nav-submenu" href="dominators.html">Our Dominators</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="#">About us</a>
+                                            <a class="nav-menu" href="#">About us</a>
                                             <ul class="sub-menu list-group">
                                                 <li class="list-group-item">
-                                                    <a href="purpose.html">Purpose</a>
+                                                    <a class="nav-submenu" href="purpose.html">Purpose</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="mission.html">Our Mission</a>
+                                                    <a class="nav-submenu" href="mission.html">Our Mission</a>
                                                     
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="#">Roadmap</a>
+                                                    <a class="nav-submenu" href="#">Roadmap</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -178,17 +180,41 @@
             <main id="main" class="site-main">
                 <div class="site-content pt0 pb0">
                     
-                    <section class="section background-bottom-cover opt120 spdb overflow-hidden vh85 target" style="background-color: #4DC662;
+                    <section class="section background-bottom-cover pt60 spdb overflow-hidden vh85 target" style="background-color: #4DC662;
                      border-radius: 0 0 0 33% ;min-height:420px">
                         <div class="prime-target">
                             <div class="swiper mySwiper " style="opacity:.5">
                                 <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image1.jpg" alt="slider-1-img"></div>
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image2.jpg" alt="slider-2-img"></div>
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image4.jpg" alt="slider-3-img"></div>
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image5.jpg" alt="slider-4-img"></div>
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image6.jpg" alt="slider-4-img"></div>
-                                <div class="swiper-slide"><img class="w-100" src="../background-images/Image7.jpg" alt="slider-4-img"></div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100" src="../background-images/Image1.jpg" alt="slider-1-img">
+                                    <!-- </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100 target-image" src="../background-images/Image2.jpg" alt="slider-2-img">
+                                    <!-- </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100" src="../background-images/Image4.jpg" alt="slider-3-img">
+                                    <!-- </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100 target-image" src="../background-images/Image5.jpg" alt="slider-4-img">
+                                    <!-- </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100" src="../background-images/Image6.jpg" alt="slider-4-img">
+                                    <!-- </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- <div class="swiper-zoom-container"> -->
+                                        <img class="w-100" src="../background-images/Image7.jpg" alt="slider-4-img">
+                                    <!-- </div> -->
+                                </div>
                                 
                             </div>
                         </div>
@@ -221,138 +247,110 @@
                             </div>
                             <h2 class="heading-title size-l mt-5 text-center">Free ChatWise Equity Giveaway</h2>
                             
-                            
                             <div class="row flex-align-c">
                                 <div class="col-lg-6">
-                                    <div class="pdr80 d-flex justify-content-center">
-                                        <div class="images layout-3">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
                                             <div class="inner">
-                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/vecteezy_hand-with-money-bag-vector_.jpg">
+                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/vecteezy_hand-with-money-bag-vector_.jpg">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="pdl80 pdr60 lg-mt32   text-center text-md-start">
+                                    <div class="pdl80 pdr60 lg-mt32   text-center ">
                                         <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE one</div> -->
                                             <h2 class="heading-title">1 Token = 1 Share</h2>
                                             <div class="heading-desc">Each ChatWise token is equivalent to 1 Equity share in the ChatWise business</div>
                                         </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="row flex-align-c ">
-                                <div class="col-lg-6 lg-order-2">
-                                    <div class="pdr80 pdl60 lg-mt32   text-center text-md-start">
+
+                                <div class="col-lg-6">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
+                                            <div class="inner">
+                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/shareholder.jpg" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdr80 pdl60 lg-mt32   text-center ">
                                         <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE two</div> -->
                                             <h2 class="heading-title number"><span class="counter">20</span>%</h2>
                                             <div class="heading-desc">Global shareholding to be distributed as Tokens for free</div>
                                         </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 lg-order-1">
-                                    <div class="pdl80 d-flex justify-content-center">
-                                        <div class="images layout-3">
-                                            <div class="inner">
-                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/shareholder.jpg" alt="Image">
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                                          
+                           
                             <div class="row flex-align-c">
                                 <div class="col-lg-6">
-                                    <div class="pdr80 d-flex justify-content-center">
-                                        <div class="images layout-3">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
                                             <div class="inner">
-                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/coins.jpeg">
+                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/coins.jpeg">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="pdl80 pdr60 lg-mt32    text-center text-md-start">
+                                    <div class="pdl80 pdr60 lg-mt32   text-center ">
                                         <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE one</div> -->
                                             <h2 class="heading-title counter">1000</h2>
                                             <div class="heading-desc">Tokens for every new user</div>
                                         </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="row flex-align-c ">
-                                <div class="col-lg-6 lg-order-2">
-                                    <div class="pdr80 pdl60 lg-mt32    text-center text-md-start">
+
+                                <div class="col-lg-6">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
+                                            <div class="inner">
+                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/airdrop2.jpg" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdr80 pdl60 lg-mt32   text-center ">
                                         <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE two</div> -->
                                             <h2 class="heading-title counter">5000</h2>
                                             <div class="heading-desc">Tokens available via free AirDrops</div>
                                         </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 lg-order-1">
-                                    <div class="pdl80 d-flex justify-content-center">
-                                        <div class="images layout-3">
-                                            <div class="inner">
-                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/airdrop2.jpg" alt="Image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                          
-                            <div class="row flex-align-c">
-                                <div class="col-lg-6">
-                                    <div class="pdr80  d-flex justify-content-center">
-                                        <div class="images layout-3">
-                                            <div class="inner">
-                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/happy.jpg">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="pdl80 pdr60 lg-mt32   text-center text-md-start">
-                                        <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE one</div> -->
-                                            <h2 class="heading-title counter">10000</h2>
-                                            <div class="heading-desc">More tokens for everyone via future AirDrops</div>
-                                        </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row flex-align-c ">
-                                <div class="col-lg-6 lg-order-2">
-                                    <div class="pdr80 pdl60 lg-mt32   text-center text-md-start">
-                                        <div class="heading mb24">
-                                            <!-- <div class="heading-sub color-navy">FEATURE two</div> -->
-                                            <h2 class="heading-title"><span class="counter">10</span>Billion</h2>
-                                            <div class="heading-desc">Tokens to be distributed free</div>
+                            
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
+                                            <div class="inner">
+                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/happy.jpg">
+                                            </div>
                                         </div>
-                                        <!-- <div class="button-wrap mt32"><a href="contact-01.html" class="button text color-navy" title="Learn More">Learn More <i class="las la-long-arrow-alt-right"></i></a></div> -->
+                                    </div>
+                                    <div class="pdl80 pdr60 lg-mt32   text-center ">
+                                        <div class="heading mb24">
+                                            <h2 class="heading-title counter">10000</h2>
+                                            <div class="heading-desc">More tokens for everyone via future AirDrops</div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 lg-order-1">
-                                    <div class="pdl80 d-flex justify-content-center">
-                                        <div class="images layout-3">
+
+                                <div class="col-lg-6">
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="images layout-3 mb-3">
                                             <div class="inner">
-                                                <img class="wow animate__fadeInLeft" style="width:300px" src="assets/thumbsup.jpg" alt="Image">
+                                                <img class="wow animate__fadeInRight" style="width:300px" src="assets/thumbsup.jpg" alt="Image">
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdr80 pdl60 lg-mt32   text-center ">
+                                        <div class="heading mb24">
+                                            <h2 class="heading-title"><span class="counter">10</span>Billion</h2>
+                                            <div class="heading-desc">Tokens to be distributed free</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                                          
+                            <!----------------------------------------------------------------------------------------------------------------------------------------------->
                             <!-- <h2>
                                 <span class="counter">500</span>
                             </h2> -->
@@ -757,11 +755,18 @@
             var swiper = new Swiper(".mySwiper", {
             loop:true,
             effect:"fade",
+            fadeEffect: {
+                crossFade: true
+            },
             speed:1500,
             allowTouchMove:false,
             autoplay:{
                 delay:2000
             },
+            // zoom: {
+            // maxRatio: 1.2,
+            // minRation: 1
+            // },
             // pagination: {
             //     el: ".swiper-pagination",
             // },
@@ -770,6 +775,12 @@
             //     prevEl: ".swiper-button-prev",
             //   },
             });
+            
+            // Use built in zoom.in() and zoom.out() function to scale images
+            // When slide starts to change slideChangeTransitionStart event fires and we use it to scale down the image. 
+            // swiper.on("slideChangeTransitionStart", swiper.zoom.out);
+            // And when transition has finished scale it up.
+            // swiper.on("slideChangeTransitionEnd", swiper.zoom.in);
         </script>
     </body>
 </html>

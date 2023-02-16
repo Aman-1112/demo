@@ -375,9 +375,6 @@ a:hover {
 .opt60 {
   padding-top: 60px;
 }
-.pt80{
-  padding-top:80px;
-}
 
 .pt60 {
   padding-top: 60px;
@@ -1842,8 +1839,7 @@ table th {
   margin-left: 15px;
 }
 .apps.m220 img {
-  /* max-width: 220px; */
-  max-width: 200px;
+  max-width: 220px;
 }
 
 .images.layout-01 {
@@ -3005,7 +3001,7 @@ form.newsletter .field-note li:last-child {
 
 img.h600 {
   height: 600px;
-  width: 80%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -3319,24 +3315,20 @@ img.h600 {
   }
 }
 .site-header {
-  /* padding-top: 18px; */
-  /* padding-bottom: 18px; */
-  padding: 4px 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
   background-color: var(--sala-neutral-white, #ffffff);
 }
 .site-header .logo svg path {
   fill: var(--sala-neutral-dark, #ffffff);
 }
-.site-header.common {
-  /* position: absolute; */
-  /* top: 0; */
-  top:-4px;
+.site-header.is-transparent {
+  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 9;
-  /* background-color: transparent; */
-  position:fixed;
-  background-color:var(--theme-green);
+  background-color: transparent;
 }
 .site-header.is-transparent + .site-main .page-title {
   padding-top: 160px;
@@ -3410,7 +3402,7 @@ img.h600 {
   color: var(--sala-primary-navy, #0057fc);
 }
 .site-header .main-menu > ul > li:hover > .sub-menu {
-  top: calc(100% + 20px);
+  top: calc(100% + 30px);
   opacity: 1;
   visibility: visible;
   pointer-events: all;
@@ -7076,7 +7068,7 @@ form.checkout-coupon input[type=text] {
   z-index: 0;
 }
 .heading .heading-title.size-xl {
-  font-size: 55px;
+  font-size: 56px;
 }
 .heading .heading-title.size-xxl {
   font-size: 64px;
@@ -13052,9 +13044,8 @@ form.checkout-coupon input[type=text] {
 
   .carousel-content {
     position: absolute;
-    right: 15%;
-    bottom:1rem;
-    left: 15%;
+    /* bottom: -10%;
+    left: 20%; */
     z-index: 20;
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
@@ -13062,6 +13053,10 @@ form.checkout-coupon input[type=text] {
     padding: 1rem;
     background-color: rgb(77, 198, 98,.5);
 
+    /****new one******/
+    right: 15%;
+    bottom:1rem;
+    left: 15%;
     text-align: center;
   }
 
@@ -13092,73 +13087,3 @@ form.checkout-coupon input[type=text] {
     background-image: url('../../background-images/Image4.jpg');
   }
 } */
-
-.target-image{
-  height: 80vh;
-  object-fit: cover;
-}
-
- .nav-menu:hover{
-  color: #ffffff;
-}
- .nav-menu{
-  color: #ffffff;
-}
- .nav-submenu:hover{
-  color:var(--theme-green);
-}
-@keyframes zoom {
-  from {
-      transform: scale(1);
-  }
-
-  to {
-      transform: scale(1.5);
-  }
-}
-
- .main .swiper-slide-active img{
-  animation-name: zoom;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
- }
- .main .swiper-slide-prev img{
-  animation-name: zoom;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
- }
- .main .swiper-slide-duplicate-active img{
-  animation-name: zoom;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
- }
-        @keyframes zoom {
-          from {
-              transform: scale(1);
-          }
-      
-          to {
-              transform: scale(1.5);
-          }
-      }
-
-.user-image-container{
-        width: 200px;
-        height: 200px;
-        /* border-radius: 100%; */
-        overflow: hidden;
-        margin:1rem;
-        border-radius: 14px;
-      }
-
-  .user-detail{
-    width: 200px;
-  }
-
-.user-detail img{
-  width: 35px;
-  height: 35px;
-}
-.mt-100{
-  margin-top:100px;
-}

@@ -62,7 +62,7 @@
         <div id="wrapper">
             <div id="preload" class="preload"><div class="spin"></div></div>
             <!-- BEGIN SITE HEADER -->
-            <header id="header" class="site-header" style="background: rgba(77,198,98,1)">
+            <header id="header" class="site-header common">
                 <div class="container-fluid">
                     <div class="row flex-align-c inner">
                         <div class="col-lg-3 col-6">
@@ -128,38 +128,38 @@
                                     </div>
                                     <ul>
                                         <li class="is-normal-menu">
-                                            <a href="index.html">Home</a>
+                                            <a class="nav-menu" href="index.html">Home</a>
                                             
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="tokenFaq.html">Token FAQs</a>
+                                            <a class="nav-menu" href="tokenFaq.html">FAQs</a>
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="#">Internship Program</a>
+                                            <a class="nav-menu" href="#">Internship Program</a>
                                             <ul class="sub-menu list-group">
                                                 <li class="list-group-item">
-                                                    <a href="#">Join as Intern or Ambassador</a>
+                                                    <a class="nav-submenu" href="#">Join as Intern or Ambassador</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="internshipFaq.html">Internship FAQs</a>
+                                                    <a class="nav-submenu" href="internshipFaq.html">Internship FAQs</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="#">Our Dominators</a>
+                                                    <a class="nav-submenu" href="dominators.html">Our Dominators</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a href="#">About us</a>
+                                            <a class="nav-menu" href="#">About us</a>
                                             <ul class="sub-menu list-group">
                                                 <li class="list-group-item">
-                                                    <a href="purpose.html">Purpose</a>
+                                                    <a class="nav-submenu" href="purpose.html">Purpose</a>
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="mission.html">Our Mission</a>
+                                                    <a class="nav-submenu" href="mission.html">Our Mission</a>
                                                     
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <a href="#">Roadmap</a>
+                                                    <a class="nav-submenu" href="#">Roadmap</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -173,10 +173,9 @@
                     </div>
                 </div>
             </header>
-
             <!-- END SITE HEADER -->
-        </div>
-            <h1 class="my-5 text-center">Our Purpose</h1>
+        </div >
+            <h1 class="mb-4 text-center mt-100">Our Purpose</h1>
              <!-- Swiper -->
             <div class="mb-4">
                 <div class="swiper mySwiper">
@@ -351,6 +350,7 @@
                     
                     var swiper = new Swiper(".mySwiper", {
                     loop:true,
+                    effect:"creative",
                     speed:1500,
                     // autoplay:{
                     //     delay:5000
