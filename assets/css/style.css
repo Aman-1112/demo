@@ -13117,17 +13117,17 @@ form.checkout-coupon input[type=text] {
   }
 }
 
- .main .swiper-slide-active img{
+ #main .swiper-slide-active img{
   animation-name: zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
  }
- .main .swiper-slide-prev img{
+ #main .swiper-slide-prev img{
   animation-name: zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
  }
- .main .swiper-slide-duplicate-active img{
+ #main .swiper-slide-duplicate-active img{
   animation-name: zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
