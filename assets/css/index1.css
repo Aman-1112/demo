@@ -25,6 +25,8 @@
     align-items: baseline;
     justify-content: center;
     width: 85%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about_details {
