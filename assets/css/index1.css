@@ -28,7 +28,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-
+.green_tint{
+    background-color: var(--theme-green,'#4DC662');
+  }
 .about_details {
 	position: relative;
 	text-align: left;
@@ -62,7 +64,7 @@
 	transform: translate(25px, -15px);
 	font-family: 'Bree Serif', serif;
 	display: inline-block;
-	background: #ffe6e6;
+	/* background: #ffe6e6; */
 	border-radius: 5px;
 	font-size: 14px;
 	padding: 5px;
@@ -134,6 +136,10 @@
 .about_container1 .about_details
 {
     width: 44%;
+}
+.green_tint .about_details h1  ,.green_tint .about_details > p
+{
+    color: white;
 }
 /* .image_box1{
     height: 70%;

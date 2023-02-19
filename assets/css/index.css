@@ -35,9 +35,18 @@
   .card img {
       max-height: 100%;
   }
-  .margin_top{
-    margin-top: 11rem;
+  .new_container{
+    margin-top: 9rem;
   }
+  .margin_top{
+    /* margin-top: 11rem; */
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    background-color: var(--theme-green,'#4DC662');
+    font-weight: 600;
+    /* color: white; */
+  }
+  
   @media (max-width: 767px) {
     .card .img-wrapper {
       height: 17em;
@@ -76,7 +85,7 @@
   .demo{ 
     height: 95vh;
     /* background: #bd986b; */
-    background: #6e6bbd;
+    background: #0E9CCC;
    }
    .demo .container h2{
     color: #ffffff;
@@ -124,6 +133,7 @@
       width: 100%;
       position: absolute;
       left: 0;
+      bottom: -40%;
   }
   .testimonial .pic{
       display: inline-block;
