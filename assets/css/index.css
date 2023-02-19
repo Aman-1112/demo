@@ -75,7 +75,11 @@
 
   .demo{ 
     height: 95vh;
-    background: #bd986b;
+    /* background: #bd986b; */
+    background: #6e6bbd;
+   }
+   .demo container h2{
+    color: #ffffff;
    }
   .testimonial{
       background: #fff;
