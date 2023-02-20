@@ -104,10 +104,13 @@
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	height: 90%;
+	height: 100%;
 	float: right;
 	width: 50%;
 	display: inline-block;
+}
+.about_container1 .about_image{
+    height: 90%;
 }
 .about_img_right{
     transition: all 0.3s ease-out;
