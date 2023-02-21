@@ -13,11 +13,18 @@
         height: 1rem !important;
    }
    .card{
-        width: 70% !important;
+        width: 85% !important;
    }
    .answer{
         font-size: 12px !important;
         text-align: justify !important;
+   }
+   .answer2{
+        font-size: 12px !important;
+        text-align: justify !important;
+   }
+   .faq-content .answer2 {
+     padding-right: 20px;
    }
   }
 @media screen and (max-width: 420px) {
