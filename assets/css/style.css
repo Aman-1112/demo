@@ -13335,6 +13335,12 @@ form.checkout-coupon input[type=text] {
   .small_content{
       font-size: 1rem !important;
   }
+  .sameelogo{
+    display: block;
+  }
+  .logo1{
+    flex-direction: row !important;
+  }
 }
 @media screen and (max-width: 662px) {
   .heading-title{
