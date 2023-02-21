@@ -5,7 +5,7 @@
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
-    margin-top: 8em;
+    margin-top: 3em;
 	height: 50vh;
 	width: 75%;
     display: flex;
@@ -278,6 +278,9 @@
     .about_container .about_details > p {
         /* font-size: 9px; */
     }
+    .smgin{
+        margin-bottom: 25px;
+    }
   }
 @media screen and (max-width: 662px) {
     .about_container {
@@ -304,7 +307,10 @@
     font-size: 10px;
     }
     .about_container {
-        /* height: 65vh; */
+        height: 45vh;
+    }
+    .about_container1 {
+        height: 50vh;
     }
     .about_container .about_details h1 {
         font-size: 16px;
@@ -325,7 +331,7 @@
     }
     .about_container {
         /* height: 65vh; */
-        height: 35vh;
+        height: 30vh;
     }
     .about_container .about_details h1 {
         font-size: 14px;
@@ -342,6 +348,16 @@
     .owl-carousel{
         height: 75vh !important;
     }
+  }
+@media screen and (max-width: 415px) {
+
+    .about_container .about_details h1 {
+        font-size: 12px;
+    }
+    .about_container .about_details > p {
+        font-size: 10px;
+    }
+ 
   }
 @media screen and (max-width: 383px) {
     /* .about_image { */
@@ -381,7 +397,7 @@
         font-size: 8px;
     }
   }
-@media screen and (max-width: 354px) {
+@media screen and (max-width: 364x) {
     .duration-150 {
     font-size: 8px;
     }

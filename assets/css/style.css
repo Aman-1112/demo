@@ -13286,6 +13286,35 @@ form.checkout-coupon input[type=text] {
   .header-left .canvas-menu{
       margin: 0;
   }
+  .new_changss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .company_resource{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .tt1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .mminc{
+     margin-bottom: 16px;
+  }
+  .footer-top {
+    padding: 0px 0 !important;
+  }
+  .footer-top .footer-about .small_content{
+    padding-left: 10px;
+  }
+  .cc{
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 383px) {
@@ -13294,5 +13323,27 @@ form.checkout-coupon input[type=text] {
   }
   .logo1 div h6 {
       font-size: 8px;
+  }
+}
+@media screen and (max-width: 889px) {
+  .heading-title{
+      font-size: 3rem !important;
+  }
+  .heading_title_bottom_one{
+      font-size: 2rem !important;
+  }
+  .small_content{
+      font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 662px) {
+  .heading-title{
+      font-size: 2rem !important;
+  }
+  .heading_title_bottom_one{
+      font-size: 1rem !important;
+  }
+  .small_content{
+      font-size: 0.8rem !important;
   }
 }
