@@ -320,7 +320,8 @@
     }
     .owl-carousel .owl-wrapper-outer {
         /* min-height: 70vh; */
-        min-height: 60vh;
+        /* min-height: 60vh; */
+        min-height: 47vh;
   }
   .testimonial .description{
     font-size: 1rem;
@@ -380,9 +381,9 @@
     .testimonial{
         height: 300px;
     }
-    .owl-carousel{
+    /* .owl-carousel{
         height: 75vh !important;
-    }
+    } */
   }
 @media screen and (max-width: 415px) {
 
