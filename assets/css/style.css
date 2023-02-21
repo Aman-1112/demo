@@ -13197,7 +13197,7 @@ form.checkout-coupon input[type=text] {
   .right-bar ul{
     width: 100%;
     position: absolute;
-    top:68px;
+    top:62px;
     left: 0px;
     background-color: #4DC662;
   }
@@ -13249,6 +13249,14 @@ form.checkout-coupon input[type=text] {
 .mb-75{
   margin-bottom: 75px;
 }
+.logo1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo1 div h6{
+  color: white;
+}
 @media screen and (max-width: 995px) {
   .logo1 div h6 {
       font-size: 10px;
@@ -13265,5 +13273,26 @@ form.checkout-coupon input[type=text] {
   }
   #temporary a{
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 753px) {
+  .logo1 div h6 {
+      font-size: 10px;
+  }
+  .canvas-menu .icon
+  {
+      display: none;
+  }
+  .header-left .canvas-menu{
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .Layer_1{
+      width: 3rem;
+  }
+  .logo1 div h6 {
+      font-size: 8px;
   }
 }
