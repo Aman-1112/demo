@@ -257,6 +257,16 @@
     .about_container .about_details > p {
         /* font-size: 10px; */
     }
+    .logo1 div h6 {
+        font-size: 10px;
+    }
+    .canvas-menu .icon
+    {
+        display: none;
+    }
+    .header-left .canvas-menu{
+        margin: 0;
+    }
   }
 @media screen and (max-width: 703px) {
     .about_container {
@@ -353,6 +363,12 @@
         font-size: 10px;
     }
     .about_btn{
+        font-size: 8px;
+    }
+    .Layer_1{
+        width: 3rem;
+    }
+    .logo1 div h6 {
         font-size: 8px;
     }
   }
