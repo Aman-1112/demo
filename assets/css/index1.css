@@ -336,11 +336,20 @@
     .about_details{
         padding: 15px;
     }
+    .testimonial{
+        height: 300px;
+    }
+    .owl-carousel{
+        height: 75vh !important;
+    }
   }
 @media screen and (max-width: 383px) {
     /* .about_image { */
     /* display: none; */
     /* } */
+    .testimonial{
+        padding: 0px 30px 30px;
+    }
     .duration-150 {
     font-size: 8px;
     }
@@ -389,4 +398,10 @@
         line-height: 150%;
         
     }
+    /* .testimonial{
+        height: 340px;
+    }
+    .owl-carousel{
+        height: 90vh !important;
+    } */
   }
