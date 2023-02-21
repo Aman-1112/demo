@@ -191,7 +191,16 @@
         height: 60vh;
         width: 85%;
     } */
+    .testimonial{
+        height: 375px;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        min-height: 84vh;
   }
+  .testimonial .description{
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 1079px) {
     .about_details {
         width: 50%;
@@ -281,6 +290,9 @@
     .smgin{
         margin-bottom: 25px;
     }
+    .ttt1{
+        margin-bottom: 1.5rem;
+    }
   }
 @media screen and (max-width: 662px) {
     .about_container {
@@ -302,6 +314,28 @@
         font-size: 0.8rem !important;
     }
   }
+@media screen and (max-width: 651px) {
+    .testimonial{
+        height: 300px;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        min-height: 70vh;
+  }
+  .testimonial .description{
+    font-size: 1rem;
+  }
+  }
+@media screen and (max-width: 360px) {
+    .testimonial{
+        height: 335px;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        min-height: 70vh;
+  }
+  .testimonial .description{
+    font-size: 1rem;
+  }
+  }
 @media screen and (max-width: 545px) {
     .duration-150 {
     font-size: 10px;
@@ -321,9 +355,9 @@
     .about_btn{
         font-size: 9px;
     }
-    .owl-carousel{
+    /* .owl-carousel{
         height: 66vh !important;
-    }
+    } */
   }
 @media screen and (max-width: 481px) {
     .duration-150 {
