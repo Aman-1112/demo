@@ -407,7 +407,7 @@
         font-size: 10px;
     }
     .about_container{
-        height: 25vh;
+        height: 25vh !important;
     }
  
   }
