@@ -32,6 +32,13 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.about_container2{
+    box-shadow: 0 0 0 0 grey;
+	border-radius: 0px;
+    justify-content: center;
+    /* width: 55%; */
+    margin-bottom: 3em;
+}
 .green_tint{
     background-color: var(--theme-green,'#4DC662');
   }
@@ -147,6 +154,7 @@
 .green_tint .about_details h1  ,.green_tint .about_details > p
 {
     color: white;
+    line-height: 150%;
 }
 /* .image_box1{
     height: 70%;
