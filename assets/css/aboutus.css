@@ -82,6 +82,8 @@
     max-width: 75%;
     bottom: 14.5rem;
     left: 15%;
+    padding-left: 1rem;
+    padding-right: 1rem;
     }
 }
 @media screen and (max-width: 485px) {
