@@ -312,13 +312,36 @@
                                 Shares
                             </p>
                             <div class="about_control">
-
+<!-- 
                                 <button class="about_btn btn btn-primary" type="button">
                                     Get Details here
-                                </button>
+                                </button> -->
                                 <!-- <button type="button" class="about_btn btn-outline btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                                     Get Details here
                                   </button> -->
+                                  <!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<button type="button" class="about_btn btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Get Details here
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            If you have >2k followers on any social network including the Instagram, Facebook, Twitter, YouTube or TikTok - join ChatWise before 31st March and we will match your follower number with equity shares in the company. Conditions apply. First Come First Served until 5bn shares have been claimed. To start, write to info@chatwise.co.uk with subject line "creator interest" and a link to your social media page on any of the above mentioned platforms
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
                             </div>
 
@@ -1098,7 +1121,12 @@
     <script src="assets/js/main.js"></script>
 
     <script>
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
         var swiper = new Swiper(".mySwiper", {
             loop: true,
             effect: "fade",
