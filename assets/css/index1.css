@@ -406,6 +406,9 @@
     .about_container .about_details > p {
         font-size: 10px;
     }
+    .about_container{
+        height: 25vh;
+    }
  
   }
 @media screen and (max-width: 383px) {
