@@ -13353,3 +13353,15 @@ form.checkout-coupon input[type=text] {
       font-size: 0.8rem !important;
   }
 }
+.new_nav_meny{
+  font-weight: 600 !important;
+    padding: 10px 18px !important;
+    display: block;
+    line-height: 1.1;
+    font-size: 16px;
+    color: #ffffff !important;
+    display: flex !important;
+    align-content: center;
+    align-items: stretch;
+      /* color: var(--sala-primary-navy, #0057fc); */
+}

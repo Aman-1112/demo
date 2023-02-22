@@ -160,7 +160,7 @@
                                             <a class="nav-menu" href="./tokenFaq.html">FAQs</a>
                                         </li>
                                         <li class="is-normal-menu">
-                                            <a class="nav-menu" >Careers</a>
+                                            <a class="nav-menu" id="ccaa" onclick="myFunction();">Careers</a>
                                             <div id="temporary">
                                                 <a href="./joinintern.html">Join as Intern or Ambassador</a>
                                                 <a href="./internshipFaq.html">Internship FAQs</a>
@@ -482,5 +482,28 @@
                 <script src="assets/libs/counter/jquery.counterup.min.js"></script>
                 <script src="assets/libs/wowjs/wow.min.js"></script>
                 <script src="assets/js/main.js"></script>
+                <script>
+                      function myFunction() {
+            const WIDTH_LIMIT=800;
+            console.log('hello');
+            var z = document.getElementById("temporary");
+            if (z.style.display == 'block' && screen_width <= WIDTH_LIMIT) {
+                console.log(screen_width);
+                z.style.display = 'none';
+            } else {
+                console.log(screen_width);
+                z.style.display = 'block';
+            }
+        }
+        var screen_width = window.innerWidth;
+        var WIDTH_LIMIT = 800;
+        var y = document.getElementById("ccaa");
+        var x = document.getElementById("temporary");
+        if (x.style.display == '' && screen_width <= WIDTH_LIMIT) {
+            x.style.display='none';
+            y.classList.remove('nav-menu');
+            y.classList.add('new_nav_meny');
+        }
+                </script>
     </body>
 </html>

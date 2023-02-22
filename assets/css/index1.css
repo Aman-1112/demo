@@ -293,6 +293,10 @@
     .ttt1{
         margin-bottom: 1.5rem;
     }
+    .nav-section .has-sub-menu #nav-menu {
+        pointer-events: all !important;
+        cursor: pointer !important;
+    }
   }
 @media screen and (max-width: 662px) {
     .about_container {
