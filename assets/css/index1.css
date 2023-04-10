@@ -133,6 +133,12 @@
     height: 75%;
     width: 40%;
 }
+.less_stretch{
+    height: 65% !important;
+}
+.less_stretch img{
+    height: 81% !important;
+}
 .heaad{
     font-size: 18px !important;
 }
