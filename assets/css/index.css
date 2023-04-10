@@ -42,9 +42,30 @@
     /* margin-top: 11rem; */
     padding-bottom: 3rem;
     padding-top: 3rem;
-    background-color: var(--theme-green,'#4DC662');
+    /* background-color: var(--theme-green,'#4DC662'); */
     font-weight: 600;
+    /* position: relative;
+    top: 0%; */
     /* color: white; */
+  }
+  .newadd{
+    background-image: url('../../assets/images/jj1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--theme-green,'#4DC662');
+    background-position-x: center;
+    background-position-y: center;
+    opacity: 75%;
+    /* min-height: 30vh; */
+  }
+  .upadd{
+    /* background-color: var(--theme-green,'#4DC662'); */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background: rgba(0, 151, 19, 0.6);
+    
+  }
+  .upadd .margin_top{
+    color: white;
   }
   
   @media screen and (max-width: 767px) {
